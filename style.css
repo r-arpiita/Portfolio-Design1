@@ -920,12 +920,12 @@ main{
 .blogs_cont{
     
     margin: 2em 0em;
-    width: 70%;
+    width: 80%;
   
    place-content: center;
     display: grid;
     gap: 3em;
-    grid-template-columns: repeat(auto-fit, minmax(150px , 200px));
+    grid-template-columns: repeat(auto-fit, minmax(200px , 230px));
   
     margin-bottom: 3em;
    
@@ -1010,7 +1010,7 @@ main{
   h1{
     font-weight: 600;
     color: white;
-    padding-bottom: 2em;
+    
   }
 }
 
@@ -1027,7 +1027,7 @@ main{
 
 .test_cont{
     width: 70%;
-    
+    margin-top: 2.5em;
     display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px , 250px));
   place-content: center;
@@ -1167,7 +1167,7 @@ footer{
     }
 
     .hero_img_cont{
-        display: none;
+        width: 80%;
     }
 
     .hero_text{
@@ -1175,13 +1175,14 @@ footer{
     }
 
     .hero_button2{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
     
 
     .herosec_cont{
         height: auto;
+        width: 80%;
     }
 
     .herosec{
@@ -1216,12 +1217,12 @@ footer{
     }
 
     .about{
-        padding: 1em;
+        padding: 0em;
+        width: 80%;
+        max-width: 475px;
     }
 
-    .work_process{
-        padding: 1em;
-    }
+    
 
     .first_box{
         width: 100%;
@@ -1235,6 +1236,8 @@ footer{
         gap: 3rem;
         margin-top: 2em;
         margin-bottom: 0em;
+        padding: 0em;
+        width: 80%;
     }
 
     .text_box , .image_box{
@@ -1242,13 +1245,45 @@ footer{
         padding: 0em;
     }
 
+    
+
     .Projects{
-        margin-top: 1em;
+        margin-top: 2em;
+      p{
+        display: none;
+      }
+    }
+
+    .project_cont{
+        width: 80%;
+    }
+    .project_text{
+      p{
+        display: none;
+      }  
+
+      gap: 1.5rem;
+        
     }
 
     .blogs{
-        margin-bottom: 1.5em;
+        margin-bottom: 2.5em;
+        padding-bottom: 0em;
+
+        p{
+            display: none;
+        }
     }
+
+    .blogs_cont{
+        margin-top: 2.5em;
+        margin-bottom: 1.2em;
+        width: 80%;
+    }
+
+  .test_cont{
+    width: 80%;
+  }
     
 
    .skills{
