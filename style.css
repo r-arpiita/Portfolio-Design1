@@ -1162,6 +1162,10 @@ footer{
         display: none;
     }
 
+    .first_box{
+        padding: 1em;
+    }
+
     .hero_img_cont{
         display: none;
     }
@@ -1203,12 +1207,24 @@ footer{
         align-items: center;
     }
 
+    .about_h1{
+        padding-bottom: 0.5em;
+    }
+
     .second_box{
         display: none;
     }
 
+    .about{
+        padding: 1em;
+    }
+
+    .work_process{
+        padding: 1em;
+    }
+
     .first_box{
-        width: 80%;
+        width: 100%;
     }
 
     .work_process{
@@ -1222,9 +1238,22 @@ footer{
     }
 
     .text_box , .image_box{
-        width: 80%;
+        width: 100%;
+        padding: 0em;
     }
 
+    .Projects{
+        margin-top: 1em;
+    }
+
+    .blogs{
+        margin-bottom: 1.5em;
+    }
+    
+
+   .skills{
+    margin-bottom: 1em;
+   }
    
 }
 
