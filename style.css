@@ -890,7 +890,7 @@ main{
       font-family: "Barlow", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 6em;
+  margin-bottom: 2em;
 
     h1{
         font-family: 600;
@@ -996,8 +996,8 @@ main{
 
 .testimonials{
     width: 100%;
-  
-    
+  border-top: 50px solid black;
+    padding-top: 1.8em;
     margin-bottom: 4em;
     display: flex;
     flex-direction: column;
@@ -1167,7 +1167,7 @@ footer{
     }
 
     .hero_img_cont{
-        width: 100%;
+        width: 98%;
     }
 
     .hero_text{
@@ -1182,7 +1182,7 @@ footer{
 
     .herosec_cont{
         height: auto;
-        width: 100%;
+        width: 98%;
     }
 
     .herosec{
@@ -1218,7 +1218,7 @@ footer{
 
     .about{
         padding: 0em;
-        width: 100%;
+        width: 98%;
         max-width: 475px;
     }
 
@@ -1234,7 +1234,7 @@ footer{
         justify-content: center;
         align-items: center;
         gap: 3rem;
-        margin-top: 2em;
+        margin-top: 2.8em;
         margin-bottom: 0em;
         padding: 0em;
         width: 100%;
@@ -1255,7 +1255,7 @@ footer{
     }
 
     .project_cont{
-        width: 100%;
+        width: 98%;
     }
     .project_text{
       p{
@@ -1277,12 +1277,13 @@ footer{
 
     .blogs_cont{
         margin-top: 2.5em;
-        margin-bottom: 1.2em;
-        width: 100%;
+        margin-bottom: 1em;
+        width: 98%;
     }
 
   .test_cont{
-    width: 100%;
+    margin-top: 1.5em;
+    width: 98%;
   }
     
 
